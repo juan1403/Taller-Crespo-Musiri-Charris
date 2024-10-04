@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetalleActivity">
+
+    <ImageView
+        android:id="@+id/detalle_imagen_tarea"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagen de la tarea" />
+
+    <TextView
+        android:id="@+id/detalle_nombre_tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Nombre de la tarea" />
+
+    <TextView
+        android:id="@+id/detalle_categoria_tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Categoría de la tarea" />
+
+    <TextView
+        android:id="@+id/detalle_estado_tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="Estado de la tarea" />
+
+</LinearLayout>
